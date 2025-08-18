@@ -1,0 +1,10 @@
+{
+	"name": "AzureBlobStorage769",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/8f72ae61-f83d-4dfe-afa0-2282c925f6e7/resourceGroups/yyc/providers/Microsoft.Storage/storageAccounts/yycblobstorage0617",
+		"groupId": "blob",
+		"fqdns": [
+			"yycblobstorage0617.blob.core.chinacloudapi.cn"
+		]
+	}
+}

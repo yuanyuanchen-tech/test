@@ -1,0 +1,9 @@
+{
+	"name": "yycDatafactory0423",
+	"location": "chinanorth3",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "76e93236-83a5-437e-b6ef-4b11f2b2bc01",
+		"tenantId": "954ddad8-66d7-47a8-8f9f-1316152d9587"
+	}
+}
