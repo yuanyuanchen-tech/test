@@ -115,7 +115,6 @@
 							"enableLogging": true,
 							"storeSettings": {
 								"type": "AzureBlobStorageReadSettings",
-								"recursive": true,
 								"enablePartitionDiscovery": false
 							}
 						}
