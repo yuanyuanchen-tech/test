@@ -1,0 +1,62 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "yycDatafactory0423"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureTableStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureTableStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://yycadlsgen21029.dfs.core.chinacloudapi.cn/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "yyc.database.chinacloudapi.cn"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "yycdb"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "yyc"
+		},
+		"integrationRuntime4_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "yyc0318.database.chinacloudapi.cn"
+		},
+		"integrationRuntime4_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "yyc"
+		},
+		"integrationRuntime4_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
+		},
+		"AzureBlobStorage769_properties_privateLinkResourceId": {
+			"value": "/subscriptions/8f72ae61-f83d-4dfe-afa0-2282c925f6e7/resourceGroups/yyc/providers/Microsoft.Storage/storageAccounts/yycblobstorage0617"
+		},
+		"AzureBlobStorage769_properties_groupId": {
+			"value": "blob"
+		},
+		"AzureBlobStorage769_properties_fqdns": {
+			"value": [
+				"yycblobstorage0617.blob.core.chinacloudapi.cn"
+			]
+		}
+	}
+}
