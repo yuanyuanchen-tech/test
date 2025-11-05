@@ -1,0 +1,53 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "yyc",
+				"container": "test"
+			},
+			"columnDelimiter": "\u0001",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "IncidentNumber",
+				"type": "String"
+			},
+			{
+				"name": "CaseCreatedTime",
+				"type": "String"
+			},
+			{
+				"name": "IncidentState",
+				"type": "String"
+			},
+			{
+				"name": "OwnerAlias",
+				"type": "String"
+			},
+			{
+				"name": "OwnershipCount",
+				"type": "String"
+			},
+			{
+				"name": "SAPPath",
+				"type": "String"
+			},
+			{
+				"name": "CompanyName",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
